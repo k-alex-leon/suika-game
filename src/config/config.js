@@ -14,11 +14,11 @@ export const GameConfig = {
     mode: Phaser.Scale.FIT,
   },
   physics: {
-    default: "arcade",
-    arcade: {
-      gravity: { y: 300 },
+    default: "matter",
+    matter: {
+      gravity: { y: 1 },
       debug: isDebug,
-    },
+    }
   },
   scne: [],
   //   parent: parent.id
